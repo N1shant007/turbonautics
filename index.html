@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <title>Turbonautics - Aerospace Engineering & Propulsion</title>
+    <link rel="icon" href="images/Turbonautics Logo Without Background.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Turbonautics — aerospace engineering, advanced propulsion, CFD simulation and unmanned systems based in Bengaluru, India." name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- custom-css -->
+    <link href="css/swiper-custom-1.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<body class="dark-scheme">
+
+    <header class="transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="de-flex">
+                        <div class="de-flex-col">
+                            <!-- logo begin -->
+                            <div id="logo">
+                                <a href="index.html">
+                                    <img class="logo-main" src="images/turbo-logo.png" alt="" >
+                                    <img class="logo-scroll" src="images/turbo-logo.png" alt="" >
+                                    <img class="logo-mobile" src="images/turbo-logo.png" alt="" >
+                                </a>
+                            </div>
+                            <!-- logo close -->
+                        </div>
+                        <div class="de-flex-col header-col-mid">
+                            <ul id="mainmenu">
+                                <li><a class="menu-item" href="index.html">Home</a>
+                                    <!-- <ul class="mega">
+                                        <li>
+                                            <div class="container">
+                                                <div class="sb-menu p-4">
+                                                    <div class="row g-4">
+                                                        <div class="col-lg-1-5 col-sm-6 text-center">
+                                                            <div class="relative hover text-center overflow-hidden soft-shadow">
+                                                                <a class="p-0" href="index.html">
+                                                                    <img src="images/demo/index-1.webp" class="w-100 relative hover-scale-1-1" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <h6 class="mt-3">Homepage 1</h6>
+                                                        </div>
+
+                                                        <div class="col-lg-1-5 col-sm-6 text-center">
+                                                            <div class="relative hover text-center overflow-hidden soft-shadow">
+                                                                <a class="p-0" href="index-2.html">
+                                                                    <img src="images/demo/index-2.webp" class="w-100 relative hover-scale-1-1" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <h6 class="mt-3">Homepage 2</h6>
+                                                        </div>
+
+                                                        <div class="col-lg-1-5 col-sm-6 text-center">
+                                                            <div class="relative hover text-center overflow-hidden soft-shadow">
+                                                                <a class="p-0" href="index-3.html">
+                                                                    <img src="images/demo/index-3.webp" class="w-100 relative hover-scale-1-1" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <h6 class="mt-3">Homepage 3</h6>
+                                                        </div>
+
+                                                        <div class="col-lg-1-5 col-sm-6 text-center">
+                                                            <div class="relative hover text-center overflow-hidden soft-shadow">
+                                                                <a class="p-0" href="index-4.html">
+                                                                    <img src="images/demo/index-4.webp" class="w-100 relative hover-scale-1-1" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <h6 class="mt-3">Homepage 4</h6>
+                                                        </div>
+
+                                                        <div class="col-lg-1-5 col-sm-6 text-center">
+                                                            <div class="relative hover text-center overflow-hidden soft-shadow">
+                                                                <a class="p-0" href="index-5.html">
+                                                                    <img src="images/demo/index-5.webp" class="w-100 relative hover-scale-1-1" alt="">
+                                                                </a>
+                                                            </div>
+                                                            <h6 class="mt-3">Homepage 5</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul> -->
+                                </li>
+                                <li><a class="menu-item" href="services.html">Services</a>
+                                    <!-- <ul>
+                                        <li><a class="menu-item" href="services.html">All Services 1</a></li>
+                                        <li><a class="menu-item" href="services-2.html">All Services 2</a></li>
+                                        <li><a class="menu-item" href="service-single.html">Service Single</a></li>
+                                    </ul> -->
+                                </li>
+                                <li><a class="menu-item" href="micro-turbojet-engine.html">Our Engines</a>
+                                    <ul>
+                                        <li><a class="menu-item" href="micro-turbojet-engine.html">Micro Turbojet Engine</a></li>
+                                        <li><a class="menu-item" href="ramjet-engine.html">Ramjet Engine</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="menu-item" href="about.html">About Us</a>
+                                    <!-- <ul>
+                                        <li><a class="menu-item" href="about.html">About</a></li>
+                                        <li><a class="menu-item" href="drone-features.html">Features</a></li>
+                                        <li><a class="menu-item" href="industry-we-serve.html">Industry We Serve</a></li>
+                                        <li><a class="menu-item" href="faqs.html">FAQS</a></li>
+                                    </ul> -->
+                                </li>
+                                <!-- <li><a class="menu-item" href="projects.html">Projects</a></li> -->
+                                <!-- <li><a class="menu-item" href="blog.html">Blog</a></li> -->
+                                <li><a class="menu-item" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="de-flex-col">
+                            <div class="menu_side_area">
+                                <a class="btn-main fx-slide" href="get-started.html"><span>Get Started</span></a>
+                                <span id="menu-btn"></span>
+                            </div>
+
+                            <div id="btn-extra" class="img">
+                                <img src="images/ui/dots.svg" class="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <main>
+
+        <div id="top"></div>
+        <div class="float-text show-on-scroll">
+            <span><a href="#">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+        
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+
+        <section class="text-light no-top no-bottom relative overflow-hidden sm-mt-90">
+            <div class="mh-800 z-2">
+                <div class="swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="swiper-inner" data-bgimage="url(images/background/6.webp) center center/cover no-repeat">
+                            <div class="sw-caption">
+                                <div class="container">
+                                    <div class="row gx-5 align-items-center justify-content-between">
+                                        <div class="col-lg-6"> 
+                                            <div class="sw-text-wrapper">
+                                                <div class="subtitle wow fadeInUp mb-3 anim-order-1">Aerospace Manufacturers</div>
+                                                <h1 class="animated text-uppercase anim-order-2">Engineering the Supersonic Future of Propulsion</h1>
+                                                <div class="animated anim-order-3">
+                                                    <h3 class="hero-propulsion-links">
+                                                        <a href="micro-turbojet-engine.html" class="hero-propulsion-link">Micro-turbojets</a>
+                                                        <span class="hero-propulsion-sep" aria-hidden="true">✱</span>
+                                                        <a href="ramjet-engine.html" class="hero-propulsion-link">Ramjets</a>
+                                                        <span class="hero-propulsion-sep" aria-hidden="true">✱</span>
+                                                        <a href="services.html" class="hero-propulsion-link">Hybrid propulsion</a>
+                                                    </h3>
+                                                    <p>Engineered for the next frontier of flight</p>
+                                                    <div class="spacer-half"></div>
+                                                    <a class="btn-main fx-slide animated fadeInUp anim-order-3" href="get-started.html"><span>Request Flight</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <img src="images/misc/ramjet.png" class="w-100 animated fadeInUp anim-order-4" alt="">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sw-overlay op-7"></div>
+                            <div class="gradient-edge-bottom h-10"></div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="swiper-inner" data-bgimage="url(images/background/6.webp) center center / cover no-repeat" data-swiper-parallax="50%">
+                            <div class="sw-caption">
+                                <div class="container">
+                                    <div class="row gx-5 align-items-center justify-content-between">
+                                        <div class="col-lg-6"> 
+                                            <div class="sw-text-wrapper">
+                                                <div class="subtitle wow fadeInUp mb-3 anim-order-1">Aerospace Manufacturers</div>
+                                                <h1 class="animated text-uppercase anim-order-2">Engineering the Power that propels Unmanned Flight.</h1>
+                                                <div class="animated anim-order-3">
+                                                    <h3 class="hero-propulsion-links hero-propulsion-links--lg">
+                                                        <a href="micro-turbojet-engine.html" class="hero-propulsion-link">Micro-turbojets</a>
+                                                        <span class="hero-propulsion-sep" aria-hidden="true">✱</span>
+                                                        <a href="ramjet-engine.html" class="hero-propulsion-link">Ramjets</a>
+                                                        <span class="hero-propulsion-sep" aria-hidden="true">✱</span>
+                                                        <a href="services.html" class="hero-propulsion-link">Hybrid propulsion</a>
+                                                    </h3>
+                                                    <h5>Engineered for the next frontier of flight. </h5>
+                                                    <div class="spacer-half"></div>
+                                                    <a class="btn-main fx-slide animated fadeInUp anim-order-3" href="get-started.html"><span>Start Project</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="images/misc/micro-turbojet.png" class="w-100 animated fadeInUp anim-order-4" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sw-overlay op-7"></div>
+                            <div class="gradient-edge-bottom h-10"></div>
+                        </div>
+                    </div>
+
+                  </div>
+
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <div class="container">
+                <div class="row g-4 gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <div class="w-100 pe-5 pb-5 wow scaleIn">
+                                <img src="images/misc/firebird-fying.png" class="w-100 rounded-1" alt="">
+                            </div>
+                            <img src="images/misc/designers.png" class="w-40 rounded-1 abs end-0 bottom-0 z-2 soft-shadow wow scaleIn" data-wow-delay=".2s" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="me-lg-3">
+                            <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">About Us</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Advancing the Boundaries of <span class="id-color"> High-Speed Flight.</span></h2>
+                            <p>Turbonautics brings together aerospace engineering, advanced propulsion and unmanned systems under one engineering capability. We combine simulation, analysis, design and development to create high-performance technologies for the next generation of aerospace and defence.</p>
+                            <ul class="ul-check text-light fw-600 mb-4 wow fadeInUp" data-wow-delay=".6s">
+                                <li>Advanced Propulsion & Aerospace Engineering</li>
+                                <li>Product Design, Engineering & Manufacturing</li>
+                                <li>Mission & High-Speed Aerospace Applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacer-double"></div>
+
+                <div class="row g-4">
+                    <!-- Numbers section don't delete this section -->
+                    <!-- <div class="col-md-3 col-sm-6 mb-sm-30">
+                        <div class="bg-dark-2 py-4 de_count text-center fs-15 wow fadeInRight" data-wow-delay=".0s">
+                            <h3 class="fs-48 alt-font id-color mb-0"><span class="timer" data-to="8240" data-speed="3000">0</span></h3>
+                            <div class="fs-15">Hours of Works</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-sm-30">
+                        <div class="bg-dark-2 py-4 de_count text-center fs-15 wow fadeInRight" data-wow-delay=".2s">
+                            <h3 class="fs-48 alt-font id-color mb-0"><span class="timer" data-to="315" data-speed="3000">0</span></h3>
+                            <div class="fs-15">Projects Done</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-sm-30">
+                        <div class="bg-dark-2 py-4 de_count text-center fs-15 wow fadeInRight" data-wow-delay=".4s">
+                            <h3 class="fs-48 alt-font id-color mb-0"><span class="timer" data-to="250" data-speed="3000">0</span></h3>
+                            <div class="fs-15">Satisfied Customers</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-sm-30">
+                        <div class="bg-dark-2 py-4 de_count text-center fs-15 wow fadeInRight" data-wow-delay=".6s">
+                            <h3 class="fs-48 alt-font id-color mb-0"><span class="timer" data-to="32" data-speed="3000">0</span></h3>
+                            <div class="fs-15">Awards Winning</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="bg-dark-2 relative overflow-hidden">
+            <div class="container">
+                <div class="row g-4 mb-4 justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <div class="subtitle wow fadeInUp mb-3">Our Flagship UAV</div>
+                        <h2><span class="id-color">Next-Gen</span> High-Performance <span class="id-color">UAV</span></h2>
+                        <p>Firebird is India's first indigenous supersonic fire-and-forget loitering munition. It is designed to loiter over the battlefield for over an hour and, on command, transition seamlessly to supersonic dash at Mach 1.5, striking hardened targets from over 400 kilometres away before the enemy can react.</p>
+                    </div>
+                </div>
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-3">
+                        <div class="dot-hover relative mb-4" data-hover="#dot-1">
+                            <span class="abs end-0 w-50px h-50px pt-2 circle bg-color d-block text-dark fs-24 text-center fw-bold">
+                                1
+                            </span>
+                            <div class="pe-70 text-end">
+                                <h4>Supersonic Performance</h4>
+                                <p class="mb-0">Hybrid propulsion engineered for sustained supersonic cruise</p>
+                            </div>
+                        </div>
+
+                        <div class="dot-hover relative mb-4" data-hover="#dot-2">
+                            <span class="abs end-0 w-50px h-50px pt-2 circle bg-color d-block text-dark fs-24 text-center fw-bold">
+                                2
+                            </span>
+                            <div class="pe-70 text-end">
+                                <h4>Extended Reach</h4>
+                                <p class="mb-0">Long-range flight with sustained mission endurance.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="relative">
+                            <img src="images/misc/fire-bird-anatomy.png" class="w-100" alt="">
+                            <!-- don't delete this section -->
+                            <!-- <div class="de-dot mt-20" style="left:32%; top:80%" id="dot-1">
+                                <div class="d-content text-light">
+                                    <h4>4K Stabilized Camera</h4>
+                                    4K resolution with 3-axis gimbal for smooth video.
+                                </div>
+                            </div>
+                            <div class="de-dot mt-20" style="left:8%; top:30%" id="dot-2">
+                                <div class="d-content text-light">
+                                    <h4>Brushless Motors</h4>
+                                    Efficient, quiet motors for powerful, reliable flight.
+                                </div>
+                            </div>
+                            <div class="de-dot mt-20" style="left:75%; top:44%" id="dot-3">
+                                <div class="d-content text-light">
+                                    <h4>Carbon Fiber Frame</h4>
+                                    Lightweight, strong carbon fiber for stability.
+                                </div>
+                            </div>
+                            <div class="de-dot mt-20" style="left:53%; top:20%" id="dot-4">
+                                <div class="d-content text-light">
+                                    <h4>GPS Assisted Navigation</h4>
+                                    HiPrecise GPS for stable hovering and auto return.
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="dot-hover relative mb-4" data-hover="#dot-3">
+                            <span class="abs w-50px h-50px pt-2 circle bg-color d-block text-dark fs-24 text-center fw-bold">
+                                3
+                            </span>
+                            <div class="ps-70">
+                                <h4>Stealth & Low-Observable Design</h4>
+                                <p class="mb-0">Designed for deep-penetration, low-signature missions.</p>
+                            </div>
+                        </div>
+                        <div class="dot-hover relative mb-4" data-hover="#dot-4">
+                            <span class="abs w-50px h-50px pt-2 circle bg-color d-block text-dark fs-24 text-center fw-bold">
+                                4
+                            </span>
+                            <div class="ps-70">
+                                <h4>Mission Versatility</h4>
+                                <p class="mb-0">Built for diverse tactical mission requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-home-section">
+            <div class="container">
+                <div class="row g-4 mb-2">
+                    <div class="col-12 text-center">
+                        <div class="subtitle wow fadeInUp mb-3">Our Services</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".1s">Engineering Services <br>for <span class="id-color">High-Performance</span> Aerospace Systems</h2>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="de-custom-nav d-flex flex-end wow fadeInUp" data-wow-delay=".2s" data-target="#services-carousel">
+                            <div class="d-prev"></div>
+                            <div class="d-next"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="services-carousel" class="services-home-carousel owl-3-cols owl-carousel owl-theme wow fadeInUp" data-wow-delay=".15s">
+                            <div class="item">
+                                <div class="h-100">
+                                    <a href="services.html" class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <h2 class="bg-color w-120px text-center text-dark alt-font abs bottom-10 end-0 p-30 px-0 fs-32 z-2">01</h2>
+                                            <div>
+                                                <img src="images/services/1.png" class="w-100 hover-scale-1-2" alt="Thermal and heat transfer analysis">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="p-40 px-0 pb-0 text-center">
+                                        <h3>Thermal &amp; Heat Transfer Analysis</h3>
+                                        <p>Analysis covering CHT, thermal stress and phase-change behavior across cryogenic to high-temperature conditions.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="h-100">
+                                    <a href="services.html" class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <h2 class="bg-color w-120px text-center text-dark alt-font abs bottom-10 end-0 p-30 px-0 fs-32 z-2">02</h2>
+                                            <div>
+                                                <img src="images/services/2.png" class="w-100 hover-scale-1-2" alt="Flow analysis and CFD">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="p-40 px-0 pb-0 text-center">
+                                        <h3>Flow Analysis &amp; CFD</h3>
+                                        <p>Analysis of rotating machinery using MRF/sliding mesh, multiphase flow, cavitation and compressible/supersonic flow, with OpenFOAM as the primary tool.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="h-100">
+                                    <a href="services.html" class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <h2 class="bg-color w-120px text-center text-dark alt-font abs bottom-10 end-0 p-30 px-0 fs-32 z-2">03</h2>
+                                            <div>
+                                                <img src="images/services/3.png" class="w-100 hover-scale-1-2" alt="Combustion and reactive flow">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="p-40 px-0 pb-0 text-center">
+                                        <h3>Combustion &amp; Reactive Flow</h3>
+                                        <p>Analysis of premixed and non-premixed combustion, emissions, scramjet/supersonic mixing and micro-turbine combustors.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="h-100">
+                                    <a href="services.html" class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <h2 class="bg-color w-120px text-center text-dark alt-font abs bottom-10 end-0 p-30 px-0 fs-32 z-2">04</h2>
+                                            <div>
+                                                <img src="images/services/4.png" class="w-100 hover-scale-1-2" alt="Structural and stress analysis">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="p-40 px-0 pb-0 text-center">
+                                        <h3>Structural &amp; Stress Analysis</h3>
+                                        <p>Analysis covering static/nonlinear FEA, burst pressure, thermal-structural coupling and custom problems using deal.II.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="h-100">
+                                    <a href="services.html" class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <h2 class="bg-color w-120px text-center text-dark alt-font abs bottom-10 end-0 p-30 px-0 fs-32 z-2">05</h2>
+                                            <div>
+                                                <img src="images/services/5.png" class="w-100 hover-scale-1-2" alt="Vibration and rotor-dynamic analysis">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="p-40 px-0 pb-0 text-center">
+                                        <h3>Vibration &amp; Rotor-Dynamic Analysis</h3>
+                                        <p>Analysis covering modal response, harmonic response, Campbell diagrams and HCF/LCF fatigue.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="h-100">
+                                    <a href="services.html" class="hover">
+                                        <div class="relative overflow-hidden">
+                                            <h2 class="bg-color w-120px text-center text-dark alt-font abs bottom-10 end-0 p-30 px-0 fs-32 z-2">06</h2>
+                                            <div>
+                                                <img src="images/services/5.png" class="w-100 hover-scale-1-2" alt="CAD and 3D surface modeling">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="p-40 px-0 pb-0 text-center">
+                                        <h3>CAD &amp; 3D Surface Modeling</h3>
+                                        <p>Conceptual design, parametric 3D CAD modeling, and high-fidelity surface development for complex aerospace airframes, turbomachinery components, and structural assemblies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="bg-dark-2 founder-section">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="subtitle wow fadeInUp">Our Team</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Behind The <span class="id-color">Scene</span></h2>
+                    </div>
+                </div>
+
+                <div class="row g-4 gx-5 align-items-center founder-profile">
+                    <div class="col-lg-5">
+                        <div class="founder-image-wrap wow fadeInUp">
+                            <div class="founder-image-glow" aria-hidden="true"></div>
+                            <div class="founder-image-inner">
+                                <img src="images/team/1.png" class="founder-image" alt="Wing Cdr Ashwini Patil G">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="founder-content text-light wow fadeInUp" data-wow-delay=".2s">
+                            <h3 class="founder-name mb-1">Wing Cdr Ashwini Patil G (Retd.)</h3>
+                            <p class="founder-role id-color mb-4">Founder</p>
+
+                            <div class="founder-logos-row">
+                                <div class="founder-logo-item">
+                                    <img src="images/Indian_Air_Force-Logo.wine.png" class="founder-logo" alt="Indian Air Force logo placeholder">
+                                </div>
+                                <div class="founder-logo-item">
+                                    <img src="images/Defence_Research_and_Development_Organisation.svg.webp" class="founder-logo drdo-logo" alt="HAL logo placeholder">
+                                </div>
+                                <div class="founder-logo-item">
+                                    <img src="images/hindustan-aeronautics-limited-logo-png_seeklogo-66974.png" class="founder-logo" alt="DRDO logo placeholder">
+                                </div>
+                            </div>
+
+                            <div class="founder-highlights">
+                                <div class="founder-highlight-item">
+                                    <div class="founder-highlight-icon">
+                                        <i class="icofont-airplane-alt"></i>
+                                    </div>
+                                    <div class="founder-highlight-text">
+                                        <h4>14 Years of Indian Air Force Experience</h4>
+                                        <p>Seasoned IAF officer with 14+ years of expertise in helicopter maintenance, aviation technical management and mission-critical operations.</p>
+                                    </div>
+                                </div>
+
+                                <div class="founder-highlight-item">
+                                    <div class="founder-highlight-icon">
+                                        <i class="icofont-gear-alt"></i>
+                                    </div>
+                                    <div class="founder-highlight-text">
+                                        <h4>Expertise Across Defence &amp; Aerospace Ecosystem</h4>
+                                        <p>Extensive exposure to HAL, DRDO and OEM ecosystems, managing complex aviation programs and leading cross-functional teams.</p>
+                                    </div>
+                                </div>
+
+                                <div class="founder-highlight-item">
+                                    <div class="founder-highlight-icon">
+                                        <i class="icofont-airplane-alt"></i>
+                                    </div>
+                                    <div class="founder-highlight-text">
+                                        <h4>Founder, Turbonautics Engineering Services Pvt. Ltd.</h4>
+                                        <p>Leading an Indian aerospace startup building a sovereign, indigenous high-speed UAV and propulsion platform for India's defence future.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="founder-cta-bar">
+                                <p class="founder-collab-text">
+                                    <i class="icofont-handshake-deal"></i>
+                                    Interested in exploring collaboration opportunities with turbonautics?
+                                </p>
+                                <a class="btn-founder-meeting" href="contact.html">Schedule a Meeting <span aria-hidden="true">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-4 gx-5 align-items-center founder-profile mt-5">
+                    <div class="col-lg-5">
+                        <!-- <div class="founder-image-wrap founder-image-wrap--framed wow fadeInUp">
+                            <div class="founder-image-glow" aria-hidden="true"></div>
+                            <div class="founder-image-inner">
+                                <img src="images/team/2.png" class="founder-image" alt="Archana Patil G">
+                            </div>
+                        </div> -->
+                        <div class="founder-image-wrap wow fadeInUp">
+                            <div class="founder-image-glow" aria-hidden="true"></div>
+                            <div class="founder-image-inner">
+                                <img src="images/team/2.png" class="founder-image" alt="Wing Cdr Ashwini Patil G">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="founder-content text-light wow fadeInUp" data-wow-delay=".2s">
+                            <h3 class="founder-name mb-1">Archana Patil G</h3>
+                            <p class="founder-role id-color mb-4">Co-Founder</p>
+
+                            <div class="founder-highlights">
+                                <div class="founder-highlight-item">
+                                    <div class="founder-highlight-icon">
+                                        <i class="icofont-graduate"></i>
+                                    </div>
+                                    <div class="founder-highlight-text">
+                                        <h4>Academic Excellence</h4>
+                                        <p>4+ years as Assistant Professor at Novodaya Institute of Technology, Raichur. M.Tech in Digital Communication &amp; Networking with a strong foundation in teaching and research.</p>
+                                    </div>
+                                </div>
+
+                                <div class="founder-highlight-item">
+                                    <div class="founder-highlight-icon">
+                                        <i class="icofont-gear-alt"></i>
+                                    </div>
+                                    <div class="founder-highlight-text">
+                                        <h4>Technical Expertise</h4>
+                                        <p>Strong background in technical research, data systems, and structured engineering solutions with a focus on innovation and problem-solving.</p>
+                                    </div>
+                                </div>
+
+                                <div class="founder-highlight-item">
+                                    <div class="founder-highlight-icon">
+                                        <i class="icofont-people"></i>
+                                    </div>
+                                    <div class="founder-highlight-text">
+                                        <h4>Driving Turbonautics Forward</h4>
+                                        <p>Co-Founder of Turbonautics, contributing to strategy, research, and building a high-performance team for India's aerospace future.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="founder-cta-bar">
+                                <p class="founder-collab-text">
+                                    <i class="icofont-handshake-deal"></i>
+                                    Interested in exploring collaboration opportunities with turbonautics?
+                                </p>
+                                <a class="btn-founder-meeting" href="contact.html">Schedule a Meeting <span aria-hidden="true">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        <section class="relative overflow-hidden">
+            <div class="container">
+                <div class="row mb-3 g-4 align-items-center justify-content-between">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay=".2s">
+                        <div class="subtitle wow fadeInUp">What We Do</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Industry We <span class="id-color">Serve</span></h2>                                
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="relative">
+                            <div class="de-custom-nav d-flex flex-end" data-target="#industry-carousel">
+                                <div class="d-prev"></div>
+                                <div class="d-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="industry-carousel" class="owl-4-cols owl-carousel owl-theme">
+                            
+                            <div class="item">
+                                <a href="industry-we-serve.html" class="d-block mb-4 hover relative overflow-hidden">
+                                    <img src="images/gallery-square/1.webp" class="w-100 hover-scale-1-1" alt="">
+                                    <div class="abs abs-centered fs-24 text-white hover-op-0">
+                                        <i class="fa-brands fa-plus"></i>
+                                    </div>
+                                </a>
+                                <h3 class="mt-3">Real Estate</h3>
+                                <p>Id commodo non consequat labore incididunt labore cillum dolor anim magna esse ex minim proident sint dolor exercitation ad.</p>
+                            </div>
+                            
+                                                    
+                           
+                            <div class="item">
+                                <a href="industry-we-serve.html" class="d-block mb-4 hover relative overflow-hidden">
+                                    <img src="images/gallery-square/2.webp" class="w-100 hover-scale-1-1" alt="">
+                                    <div class="abs abs-centered fs-24 text-white hover-op-0">
+                                        <i class="fa-brands fa-plus"></i>
+                                    </div>
+                                </a>
+                                <h3 class="mt-3">Construction</h3>
+                                <p>Id commodo non consequat labore incididunt labore cillum dolor anim magna esse ex minim proident sint dolor exercitation ad.</p>
+                            </div>
+                            
+
+                            <div class="item">
+                                <a href="industry-we-serve.html" class="d-block mb-4 hover relative overflow-hidden">
+                                    <img src="images/gallery-square/3.webp" class="w-100 hover-scale-1-1" alt="">
+                                    <div class="abs abs-centered fs-24 text-white hover-op-0">
+                                        <i class="fa-brands fa-plus"></i>
+                                    </div>
+                                </a>
+                                <h3 class="mt-3">Agriculture</h3>
+                                <p>Id commodo non consequat labore incididunt labore cillum dolor anim magna esse ex minim proident sint dolor exercitation ad.</p>
+                            </div>
+                           
+
+                           
+                            <div class="item">
+                                <a href="industry-we-serve.html" class="d-block mb-4 hover relative overflow-hidden">
+                                    <img src="images/gallery-square/4.webp" class="w-100 hover-scale-1-1" alt="">
+                                    <div class="abs abs-centered fs-24 text-white hover-op-0">
+                                        <i class="fa-brands fa-plus"></i>
+                                    </div>
+                                </a>
+                                <h3 class="mt-3">Energy</h3>
+                                <p>Id commodo non consequat labore incididunt labore cillum dolor anim magna esse ex minim proident sint dolor exercitation ad.</p>
+                            </div>
+                           
+
+                           
+                            <div class="item">
+                                <a href="industry-we-serve.html" class="d-block mb-4 hover relative overflow-hidden">
+                                    <img src="images/gallery-square/5.webp" class="w-100 hover-scale-1-1" alt="">
+                                    <div class="abs abs-centered fs-24 text-white hover-op-0">
+                                        <i class="fa-brands fa-plus"></i>
+                                    </div>
+                                </a>
+                                <h3 class="mt-3">Advertising</h3>
+                                <p>Id commodo non consequat labore incididunt labore cillum dolor anim magna esse ex minim proident sint dolor exercitation ad.</p>
+                            </div>
+                           
+
+                           
+                            <div class="item">
+                                <a href="industry-we-serve.html" class="d-block mb-4 hover relative overflow-hidden">
+                                    <img src="images/gallery-square/6.webp" class="w-100 hover-scale-1-1" alt="">
+                                    <div class="abs abs-centered fs-24 text-white hover-op-0">
+                                        <i class="fa-brands fa-plus"></i>
+                                    </div>
+                                </a>
+                                <h3 class="mt-3">Public Safety</h3>
+                                <p>Id commodo non consequat labore incididunt labore cillum dolor anim magna esse ex minim proident sint dolor exercitation ad.</p>
+                            </div>
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <div class="relative z-3">
+            <div class="spacer-double"></div>
+            <div class="spacer-double"></div>
+            <div class="abs abs-centered w-100 d-flex">
+              <div class="de-marquee-list-1 wow">
+                <div class="d-item">
+                  <span class="d-item-txt fs-150 fw-bold id-color">|||||||||||||||||||||||||||</span>
+                  <span class="d-item-display">
+                    <i class="d-item-separator"></i>
+                  </span>
+                  <span class="d-item-txt fs-150 fw-bold id-color">|||||||||||||||||||||||||||</span>
+                  <span class="d-item-display">
+                    <i class="d-item-separator"></i>
+                  </span>
+                 </div>
+              </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row gx-5 justify-content-between">
+                <div class="col-lg-4 col-sm-6">
+                    <img src="images/turbo-logo.png" class="w-200px" alt="" >
+                    <div class="spacer-20"></div>
+                    <p>Turbonautics brings together aerospace engineering, advanced propulsion and unmanned systems under one engineering capability. We combine simulation, analysis, design and development to create high-performance technologies for the next generation of aerospace and defence.</p>
+
+                    <div class="social-icons mb-sm-30">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12 order-lg-1 order-sm-2">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="widget">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="services.html">Our Services</a></li>
+                                    <li><a href="projects.html">Projects</a></li>
+                                    <li><a href="get-started.html">Get Started</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="widget">
+                                <h4>Services</h4>
+                                <ul>
+                                    <li><a href="services.html">Thermal Analysis &amp; Heat Transfer</a></li>
+                                    <li><a href="services.html">Flow Analysis &amp; CFD</a></li>
+                                    <li><a href="services.html">Combustion &amp; Reactive Flow</a></li>
+                                    <li><a href="services.html">Structural &amp; Stress Analysis</a></li>
+                                    <li><a href="services.html">Vibration &amp; Rotor-Dynamic Analysis</a></li>
+                                    <li><a href="services.html">CAD &amp; 3D Surface Modeling</a></li>
+                                </ul>
+                            </div>
+                        </div>    
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="widget">
+                                <h4>Contact Us</h4>
+                                <div><i class="icofont-clock-time me-2 id-color"></i>Mon - Sat 08.00 - 18.00</div>
+                                <div><i class="icofont-location-pin me-2 id-color"></i>#370, 11th main, 1st Block, 3rd
+                                    Stage, Near Cadambi School, Basaweshwara Nagar, Bengaluru
+                                    56007</div>
+                                <div><i class="icofont-envelope me-2 id-color"></i>info@turbonautics.com</div>
+
+                                <div><i class="icofont-phone me-2 id-color"></i>9482706518</div>
+                                <div class="spacer-single"></div>
+                                <a href="get-started.html" class="btn-main fx-slide text-dark"><span>Get Started</span></a>
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex">
+                            <div class="de-flex-col">
+                                <!-- Copyright 2026 - Udrone by Designesia -->
+                            </div>
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#">Terms &amp; Conditions</a></li>
+                                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- overlay content begin -->
+    <div id="extra-wrap" class="dark">
+        <div id="btn-close">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="extra-content">
+            <img src="images/turbo-logo.png" class="w-150px" alt="">
+
+            <div class="spacer-30-line"></div>
+
+            <h4 class="mb-3">Our Services</h4>
+
+            <ul class="ul-check">
+                <li><a href="services.html">Thermal Analysis &amp; Heat Transfer</a></li>
+                <li><a href="services.html">Flow Analysis &amp; CFD</a></li>
+                <li><a href="services.html">Combustion &amp; Reactive Flow</a></li>
+                <li><a href="services.html">Structural &amp; Stress Analysis</a></li>
+                <li><a href="services.html">Vibration &amp; Rotor-Dynamic Analysis</a></li>
+                                    <li><a href="services.html">CAD &amp; 3D Surface Modeling</a></li>
+                                </ul>
+
+
+            <div class="spacer-30-line"></div>
+
+            <h4>Contact Us</h4>
+            <div><i class="icofont-clock-time me-2 id-color"></i>Monday - Saturday 08.00 - 18.00</div>
+            <div><i class="icofont-location-pin me-2 id-color"></i>#370, 11th main, 1st Block, 3rd Stage, Near Cadambi School, Basaweshwara Nagar, Bengaluru 56007</div>
+            <div><i class="icofont-envelope me-2 id-color"></i>info@turbonautics.com</div>
+
+            <div><i class="icofont-phone me-2 id-color"></i>9482706518</div>
+
+            <div class="spacer-30-line"></div>
+
+            <h4>About Us</h4>
+            <p>Turbonautics brings together aerospace engineering, advanced propulsion and unmanned systems under one engineering capability. We combine simulation, analysis, design and development to create high-performance technologies for the next generation of aerospace and defence.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- overlay content end -->
+
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/custom-marquee.js"></script>
+    <script src="js/custom-swiper-1.js"></script>
+    
+</body>
+
+</html>

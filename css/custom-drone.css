@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  /* body font */
+  --body-font: "Manrope", Helvetica, Arial, sans-serif;
+  --body-font-size: 17px;
+  --body-font-color: #59585D;
+  --body-font-color-bg-dark: rgba(255, 255, 255, .8);
+  --body-font-weight: 400;
+  /* heading font */
+  --heading-font: "Manrope", Helvetica, Arial, sans-serif;  
+  --heading-font-weight: bold;
+  --heading-font-color: #1C1C1D;
+  --heading-font-color-bg-dark: #ffffff;
+  --heading-text-transform: none;
+  /* alternatif font */
+  --alt-font: "Orbitron", Helvetica, Arial, sans-serif; 
+  /* h1 */
+  --h1-font-family:"Orbitron", Helvetica, Arial, sans-serif;
+  --h1-font-size: 60px;
+  --h1-font-weight: 600;
+  --h1-letter-spacing: 0;
+  --h1-line-height: 1.15em;
+  --h1-margin-bottom: 20px;
+ /* h2 */
+  --h2-font-family: var(--heading-font);
+  --h2-font-size: 42px;
+  --h2-font-weight: var(--heading-font-weight);
+  --h2-letter-spacing: -.01em;
+  --h2-line-height: 1.2em;
+  --h2-margin-bottom: 25px;
+  /* h3 */
+  --h3-font-family: var(--heading-font);
+  --h3-font-size: 20px;
+  --h3-font-weight: var(--heading-font-weight);
+  --h3-letter-spacing: 0;
+  --h3-line-height: 1.5em;
+  --h3-margin-bottom: 10px;
+  /* h4 */
+  --h4-font-family: var(--heading-font);
+  --h4-font-size: 17px;
+  --h4-font-weight: var(--heading-font-weight);
+  --h4-letter-spacing: 0;
+  --h4-line-height: 1.6em;
+  --h4-margin-bottom: 10px;
+  /* h5 */
+  --h5-font-family: var(--heading-font);
+  --h5-font-size: 16px;
+  --h5-font-weight: var(--heading-font-weight);
+  --h5-letter-spacing: 0;
+  --h5-line-height: 1.6em;
+  --h5-margin-bottom: 10px;
+  /* h6 */
+  --h6-font-family: var(--heading-font);
+  --h6-font-size: 14px;
+  --h6-font-weight: var(--heading-font-weight);
+  --h6-letter-spacing: 0;
+  --h6-line-height: 1.6em;
+  --h6-margin-bottom: 10px;
+  /* mainmenu */
+  --mainmenu-font: var(--body-font);
+  --mainmenu-font-size: 17px;
+  --mainmenu-font-weight: bold;
+  --mainmenu-letter-spacing: 0;
+  --mainmenu-text-transform: none;
+  /* subheader */
+  --subheader-title-font-size: 60px;
+  --subheader-title-text-transform: none;
+  /* header logo */
+  --logo-width: 190px;
+  --logo-footer-width: 150px;
+  /* misc */
+  --border-default: solid 1px rgba(30, 30, 30, 1);
+  --bg-default: #F6F6F6;
+  --bg-light: #F8F9FA;  
+  --bg-dark-1: #242e49;
+  --bg-dark-2: #2a3555;
+  --bg-dark-3: #313131;  
+  --bg-dark-1-rgb: 36, 46, 73;
+  --bg-dark-2-rgb: 42, 53, 85;
+  --bg-grey: #eeeeee;
+  --bg-gradient-1: 0deg, rgba(var(--primary-color-rgb), .1) 0%, rgba(var(--secondary-color-rgb), .2) 100%;
+  --bg-color-even: #E8E8E8;
+  --bg-color-odd: #F4F4F4;
+  --swiper-theme-color: var(--secondary-color);
+  --rounded-1: 0;
+  --border-color:#bbbbbb;
+  --container-max-width:1240px;
+  /* button */
+  --btn-color: #000000;
+  --btn-hover-color: #000000;
+  --btn-hover-bg: var(--primary-color);
+  --btn-font-family: var(--body-font);
+  --btn-font-size: 15px;
+  --btn-font-weight: bold;
+  --btn-letter-spacing: 0;
+  --btn-padding: 6px 20px;
+  --btn-rounded: 0;
+  --btn-text-decoration: none;
+  --btn-text-transform: none;
+
+  --text-circle-width: 350px;
+  --text-circle-speed: 10s;
+
+  /* subtitle */
+  --subtitle-font:var(--heading-font);
+  --subtitle-font-size:11px;
+  --subtitle-font-weight: 800;
+  --subtitle-color:var(--primary-color);
+  --subtitle-letter-spacing:5px;
+  --subtitle-text-transform: uppercase;
+  --text-circle-width: 350px;
+  --text-circle-speed: 10s;
+}
