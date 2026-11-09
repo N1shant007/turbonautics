@@ -831,6 +831,24 @@
          $(this).data('iteration', iteration);
        });
 
+       // Parent items that only open a dropdown (e.g. "Our Engines"): click toggles the submenu
+       $('#mainmenu > li > a[href="#"]').off('click.dd').on('click.dd', function (e) {
+         e.preventDefault();
+         var $li = $(this).parent();
+         var $arrow = $(this).next('span');
+         if ($arrow.length && $arrow.is(':visible')) {
+           $arrow.trigger('click');            // mobile menu: same as tapping the arrow
+         } else {
+           $('#mainmenu > li.dd-open').not($li).removeClass('dd-open');
+           $li.toggleClass('dd-open');          // desktop: keep dropdown open on click
+         }
+       });
+       $(document).off('click.dd').on('click.dd', function (e) {
+         if (!$(e.target).closest('#mainmenu > li.dd-open').length) {
+           $('#mainmenu > li.dd-open').removeClass('dd-open');
+         }
+       });
+
        // Level 2 menu toggle
        $('#mainmenu > li > ul > li > span').off('click').on('click', function (e) {
          e.preventDefault();

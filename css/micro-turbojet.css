@@ -465,3 +465,28 @@
     border-bottom: none;
   }
 }
+
+/* Two-item spec strip (Ramjet page) */
+.mte-spec-strip--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 991px) {
+  .mte-spec-strip--2 .mte-spec-item:nth-child(1),
+  .mte-spec-strip--2 .mte-spec-item:nth-child(2) {
+    border-bottom: none;
+  }
+  .mte-spec-strip--2 .mte-spec-item:nth-child(1) {
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+@media (max-width: 575px) {
+  .mte-spec-strip--2 {
+    grid-template-columns: 1fr;
+  }
+  .mte-spec-strip--2 .mte-spec-item:nth-child(1) {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}

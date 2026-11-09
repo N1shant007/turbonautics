@@ -865,6 +865,7 @@ header.header-light #mainmenu a {
   text-transform: none;
 }
 
+#mainmenu li.dd-open>ul,
 #mainmenu li:hover>ul {
   visibility: visible;
   opacity: 1;
